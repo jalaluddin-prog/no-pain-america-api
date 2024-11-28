@@ -40,7 +40,7 @@ app.post('/api/submit', (req, res) => {
             name, email, phoneNo, insurance, whichPage, productCategory,whatNeed
         })
     
-        res.status(201).json({message:'Thank you! your request creaete'});
+        res.status(201).json({message:'Thank you! your request created'});
     } catch (error) {
         res.status(500).json({message:"Internal server error"});
     }
